@@ -5,8 +5,14 @@ spring boot+dubbo项目
 打好war包后可放入tomcat启动，使用地址localhost:端口号访问就可以看到service中有发布的服务。
 
 1.先启动mysql的服务，新建springdb的数据库，增加user表。
+
 2.启动zookeeper的zKServer.cmd。
+
 3.启动provider的main方法。
+
 4.启动customer的main方法。
+
 5.启动dubbo-admin的tomcat服务。
+
 6.进入dubbo-admin控制界面查看服务是否发布成功。
+
